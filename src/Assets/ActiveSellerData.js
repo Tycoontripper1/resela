@@ -1,0 +1,30 @@
+export const ActiveSellerData = [
+    {
+        id:1,
+        image:'images/hammed.png'
+    },
+    {
+        id:2,
+        image:'images/hammed.png'
+    },
+    {
+        id:3,
+        image:'images/hammed.png'
+    },
+    {
+        id:4,
+        image:'images/hammed.png'
+    },
+    {
+        id:5,
+        image:'images/hammed.png'
+    },
+    {
+        id:6,
+        image:'images/hammed.png'
+    },
+    {
+        id:7,
+        image:'images/hammed.png'
+    }
+]

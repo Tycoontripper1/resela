@@ -6,8 +6,54 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-bg{
+  background: linear-gradient(97.26deg, #681BCC 40.84%, #10BCBF 88.32%);
+  
 }
+*{
+  text-decoration: none;
+}
+.subscribe-shadow{
+  
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.product{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-slider{
+  position: relative;
+}
+.fa-arrow-right{
+  position: absolute;
+  top: 20%;
+  right: -60px;
+  background-color: #fff;
+  padding: 1rem;
+  color: #8D66DC;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  
+}
+
+
+.fa-arrow-left{
+  position: absolute;
+  left: -60px;
+  top: 20%;
+  color: #8D66DC;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.owl-item{
+  text-align: center;
+}
+
